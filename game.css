@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+
+#heading {
+    color: aliceblue;
+    background-color: rgb(17, 17, 17);
+    line-height: 5rem;
+    text-align: center;
+}
+
+#game {
+    background-color:#899878 ;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#allchoice{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.choice{
+    width: 10rem ;
+   height: 10rem;
+   margin: 10px 0px 0px 0px;
+   object-fit: cover;
+   
+}
+
+.choice:hover{
+    cursor: pointer;
+}
+
+img:hover {
+ border: 1.5px solid black;
+ opacity: 0.5;
+ 
+}
+
+img {
+   width: 9rem;
+   height: 9rem;
+   border-radius: 50%;        
+
+}
+
+#scorecard{
+    width: 50vw;
+    display : flex ;
+     flex-wrap: wrap;
+     justify-content: center ;
+     align-items: center ;
+}
+     
+
+.score{
+    width: 25vw;
+    height: 4rem;
+    text-align: center;
+    
+}
+
+#result {
+       text-align: center;
+       background-color: black;
+       color: aliceblue;
+       margin-top: 40px;
+       padding: 7px;
+       border-radius: 5px;
+}
